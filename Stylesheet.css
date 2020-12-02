@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+/* -----------------Navbar----------------- */
+.navbar-brand img{
+    height: 70px;
+}    
+.navbar{
+    background: transparent;
+}
+footer{
+    height: 400px;
+}
+
+/* -------------------footer----------- */
+#info li{
+    padding: 10px 20px;
+    list-style-type: none;
+}
+#f-links li{
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.offer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    border-radius: 30px;
+    border: none;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3),
+    -5px 5px 5px rgba(0, 0, 0, 0.3),
+    -5px -5px 5px rgba(0, 0, 0, 0.3);
+}
